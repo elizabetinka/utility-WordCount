@@ -16,7 +16,7 @@
 
 Название файла и опции передаются через аргументы командной строки в следующем формате:
 
-_**WordCont.exe [OPTION] filename [filename,.....]***_
+_**WordCont.exe [OPTION] filename [filename,.....]**_
 
 Формат вывода (без заданных опций):
   lines words bytes filename
@@ -24,9 +24,7 @@ _**WordCont.exe [OPTION] filename [filename,.....]***_
 ## Примечание.
 Для реализации утилиты потребуется воспользоваться стандартной библиотекой вводы\вывода ([описание](https://en.cppreference.com/w/cpp/io/basic_ifstream)).
 Пример того, как можно организовать  парсинг аргументов командной строки, можно посмотреть [здесь](http://www.cplusplus.com/articles/DEN36Up4/).
- 
 
-**!NB. Задачи с * для первого полупотока**
 
 ## Deadline 
 
